@@ -19,7 +19,7 @@ Simulation de systèmes **mono-serveur** (jusqu’à **1 000 000 clients**).
 - Arrivées : loi exponentielle de paramètre **λ**
 - Service : loi exponentielle de paramètre **μ**
 
-### Travail demandé
+### Travail Fait
 - Faire varier **λ** de **0.1 à 0.9**
 - Pour chaque valeur de λ, calculer :
   - Temps de réponse moyen
@@ -34,7 +34,7 @@ Simulation de systèmes **mono-serveur** (jusqu’à **1 000 000 clients**).
 - Arrivées : loi **générale** (au choix)
 - Service : loi exponentielle (**μ**)
 
-### Travail demandé
+### Travail Fait
 - Reprendre la même étude que pour le **M/M/1**
 - Comparer les résultats avec ceux du **M/M/1**
 
@@ -45,7 +45,7 @@ Simulation de systèmes **mono-serveur** (jusqu’à **1 000 000 clients**).
 - Arrivées : loi exponentielle (**λ**)
 - Service : loi **générale** (au choix)
 
-### Travail demandé
+### Travail Fait
 - Étudier les mêmes indicateurs que dans les deux cas précédents :
   - Temps de réponse moyen
   - Taux d’occupation \( \rho \)
