@@ -1,43 +1,55 @@
 # Modelisation-simulation
-Simulation de systèmes mono-serveur (jusqu’à 1 000 000 clients)
 
-•	Analyse des performances :
+Simulation de systèmes **mono-serveur** (jusqu’à **1 000 000 clients**).
 
-o	Temps de réponse
+## Objectifs
+- Simuler des files d’attente mono-serveur
+- Étudier l’impact de la **charge** sur les performances du système
+- Comparer différents modèles (M/M/1, G/M/1, M/G/1)
 
-o	Temps d’attente
+## Indicateurs de performance analysés
+- **Temps de réponse** (temps passé dans le système)
+- **Temps d’attente** (dans la file)
+- **Taux d’occupation du serveur** : \( \rho = \lambda / \mu \)
 
-o	Taux d’occupation du serveur
+---
 
-•	Étude de l’impact de la charge sur les performances système
+## 1) Simulation du système M/M/1
+### Description
+- Arrivées : loi exponentielle de paramètre **λ**
+- Service : loi exponentielle de paramètre **μ**
 
-1. Simulation du système M/M/1
-   
-▪ Implémentez une simulation dans laquelle les arrivées suivent une loi exponentielle de
-paramètre λ et les temps de service une loi exponentielle de paramètre μ.
+### Travail demandé
+- Faire varier **λ** de **0.1 à 0.9**
+- Pour chaque valeur de λ, calculer :
+  - Temps de réponse moyen
+  - Taux d’occupation du serveur \( \rho = \lambda / \mu \)
+  - Temps d’attente moyen dans la file
+- Représenter les résultats sous forme de **graphiques**
 
-▪ Faites varier λ (de 0.1 à 0.9).
+---
 
-▪ Calculez pour chaque cas :
+## 2) Simulation du système G/M/1
+### Description
+- Arrivées : loi **générale** (au choix)
+- Service : loi exponentielle (**μ**)
 
- o Le temps de réponse moyen (temps passé dans le système).
- 
- o Le taux d’occupation du serveur (ρ = λ / μ).
- 
- o Le temps d’attente moyen dans la file.
- 
- o Représentez les résultats sous forme de graphiques.
+### Travail demandé
+- Reprendre la même étude que pour le **M/M/1**
+- Comparer les résultats avec ceux du **M/M/1**
 
+---
 
-2. Simulation du système G/M/1
-   
-▪ Les arrivées suivent une loi générale (de votre choix), mais le service reste exponentiel.
+## 3) Simulation du système M/G/1
+### Description
+- Arrivées : loi exponentielle (**λ**)
+- Service : loi **générale** (au choix)
 
-▪ Reprenez la même étude que précédemment et comparez les résultats à ceux du M/M/1.
+### Travail demandé
+- Étudier les mêmes indicateurs que dans les deux cas précédents :
+  - Temps de réponse moyen
+  - Taux d’occupation \( \rho \)
+  - Temps d’attente moyen
+- Comparer les résultats entre les modèles
 
-
-3. Simulation du système M/G/1
-   
-▪ Les arrivées sont exponentielles, mais les temps de service suivent une loi générale.
-
-▪ Étudiez les mêmes indicateurs que dans les deux cas précédents.
+---
