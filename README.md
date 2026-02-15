@@ -29,14 +29,14 @@ paramètre λ et les temps de service une loi exponentielle de paramètre μ.
  o Représentez les résultats sous forme de graphiques.
 
 
-3. Simulation du système G/M/1
+2. Simulation du système G/M/1
    
 ▪ Les arrivées suivent une loi générale (de votre choix), mais le service reste exponentiel.
 
 ▪ Reprenez la même étude que précédemment et comparez les résultats à ceux du M/M/1.
 
 
-5. Simulation du système M/G/1
+3. Simulation du système M/G/1
    
 ▪ Les arrivées sont exponentielles, mais les temps de service suivent une loi générale.
 
